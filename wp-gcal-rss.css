@@ -1,0 +1,26 @@
+/* basic style required for ajax UI */
+#wp-gcal-rss_loading {
+	text-align: center; margin: 1em;
+	}
+
+/* visual style for the returned data */
+#wp-gcal-rss_dates dl,
+#wp-gcal-rss_dates dt,
+#wp-gcal-rss_dates dd {
+	margin: 0;
+	padding: 0;
+	}
+
+#wp-gcal-rss_dates dt {
+	margin-top: 0.2em;
+	font-size: 110%;
+	font-weight: bold;
+	}
+
+#wp-gcal-rss_dates dd {
+	margin-left: 1em;
+	}
+
+#wp-gcal-rss_dates dd.time {
+	margin-bottom: 0.2em;
+	}
